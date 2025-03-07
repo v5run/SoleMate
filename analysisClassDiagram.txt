@@ -1,0 +1,59 @@
+@startuml
+A <<control>>
+hide A
+
+control "Account Controller" as c1
+control "SME Controller" as c2
+control "Account Shoes Controller" as c3
+
+entity  "Account DB" as d1
+entity  "User Information" as d2
+entity  "Shoe Information" as d3
+entity  "Account Shoes DB" as d4
+entity  "SSD DB" as d5
+
+boundary "Edit account" as b1
+boundary "Login" as b2
+boundary "Create Account" as b3
+boundary "View Account" as b4
+boundary "Review Shoe History" as b5
+boundary "Identification Success" as b6
+boundary "Identification Failure" as b7
+boundary "Contact Support Message" as b8
+boundary "Search Results Page" as b9
+boundary "Request Identification" as b10
+boundary "Search Identified Shoes" as b11
+boundary "Rate Expert Answer" as b12
+
+
+c1 <--> c2
+c2 <-> c3
+c1 <-> c3
+
+c1 ..> d2
+c1 --> d1
+c2 ..> d3
+c2 --> d5
+c3 --> d4
+
+c3 .> d3
+c3 .> d2
+
+d1 *-- d2
+d5 *-- d3
+
+b1 <--> c1
+b2 <--> c1
+b3 <--> c1
+b4 <--> c1
+
+c2 <-up-> b6
+c2 <-left-> b7
+c2 <-up-> b8
+c2 <-up-> b9
+c2 <---> b10
+c2 <--> b11
+c2 <-down-> b12
+
+b5 <-up-> c3
+@enduml
