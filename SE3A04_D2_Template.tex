@@ -10,6 +10,7 @@
 \usepackage{fancyhdr}
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
+\usepackage{float}
 %\usepackage{extarrows}
 %\usepackage{setspace}
 %------------------------------------------------------------------------------
@@ -133,25 +134,347 @@ The repository-style architecture is evident in how SoleMate manages persistent 
 \section{Class Responsibility Collaboration (CRC) Cards}
 \label{sec:class_responsibility_collaboration_crc_cards}
 % Begin Section
-This section should contain all of your CRC cards.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Account Controller (Controller)} \\
+        \hline
+        \textbf{Responsibility:} & \textbf{Collaborators:} \\
+        \hline
+        Knows Edit Account & Edit Account \\
+        Knows Login & Login \\
+        Knows Create Account  & Create Account\\
+        Knows View Account  & View Account \\
+        Knows Account DB  & Account DB \\
+        Knows User Information  & User Information \\
+        Knows Account Shoes Controller & Account Shoes Controller \\
+        Knows SME Controller & SME Controller \\
+        \hline
+    \end{tabular}
+    \label{tab:account_controller}
+\end{table}
 
-\begin{itemize}
-	\item Provide a CRC Card for each identified class
-	\item Please use the format outlined in tutorial, i.e., 
-	\begin{table}[ht]
-		\centering
-		\begin{tabular}{|p{5cm}|p{5cm}|}
-		\hline 
-		 \multicolumn{2}{|l|}{\textbf{Class Name:}} \\
-		\hline
-		\textbf{Responsibility:} & \textbf{Collaborators:} \\
-		\hline
-		\vspace{1in} & \\
-		\hline
-		\end{tabular}
-	\end{table}
-	
-\end{itemize}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Account Shoes Controller (Controller)} \\
+        \hline
+        \textbf{Responsibility:} & \textbf{Collaborators:} \\
+        \hline
+        Knows Account Controller & Account Controller \\
+        Knows User Information & User Information \\
+        Knows Shoe Information & Shoe Information \\
+        Knows Account Shoes DB & Account Shoes DB \\
+        Knows Review Shoe History & Review Shoe History \\
+        Knows SME Controller & SME Controller \\
+        \hline
+    \end{tabular}
+    \label{tab:account_shoes_controller}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Account DB (Entity)} \\
+        \hline
+        \textbf{Responsibility:} & \textbf{Collaborators:} \\
+        \hline
+        Knows Account Controller & Account Controller \\
+        Knows User Information & User Information \\
+        \hline
+    \end{tabular}
+    \label{tab:account_db}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Edit Account (Boundary)} \\
+        \hline
+        \textbf{Responsibility:} & \textbf{Collaborators:} \\
+        \hline
+        Knows Account Controller & Account Controller \\
+        Knows username, password, gender etc. & \\
+        Handles click-event of ”Save” button & \\
+        \hline
+    \end{tabular}
+    \label{tab:edit_account}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Login (Boundary)} \\
+        \hline
+        \textbf{Responsibility:} & \textbf{Collaborators:} \\
+        \hline
+        Knows Account Controller & Account Controller \\
+        Handles click-event of ”login” button &  \\
+        \hline
+    \end{tabular}
+    \label{tab:login}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Create Account (Boundary)} \\
+        \hline
+        \textbf{Responsibility:} & \textbf{Collaborators:} \\
+        \hline
+        Knows Account Controller & Account Controller \\
+        Knows username and password &  \\
+        Handles click-event of ”Create Account” Button & \\
+        \hline
+    \end{tabular}
+    \label{tab:create_account}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} View Account (Boundary)} \\
+        \hline
+        \textbf{Responsibility:} & \textbf{Collaborators:} \\
+        \hline
+        Knows Account Controller & Account Controller \\
+        Handles click-event of ”View Account” button &  \\
+        Displays User Information & \\
+        \hline
+    \end{tabular}
+    \label{tab:view_account}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Account Shoes DB (Entity)} \\
+        \hline
+        \textbf{Responsibilities:} & \textbf{Collaborators:} \\
+        \hline
+        Knows Account Shoes Controller & Account Shoes Controller \\
+        \hline
+    \end{tabular}
+    \label{tab:account_shoes_db}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} User Information (Entity)} \\
+        \hline
+        \textbf{Responsibilities:} & \textbf{Collaborators:} \\
+        \hline
+        Knows Account DB & Account DB \\
+        Knows Account Controller & Account Controller \\
+        Knows Account Shoes Controller & Account Shoes Controller \\
+        Knows user information like username, password, gender etc. & \\ 
+        
+        \hline
+    \end{tabular}
+    \label{tab:user_information}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Review Shoe History (Boundary)} \\
+        \hline
+        \textbf{Responsibilities:} & \textbf{Collaborators:} \\
+        \hline
+        Knows Account Shoes Controller & Account Shoes Controller \\
+        \hline
+    \end{tabular}
+    \label{tab:review_shoe_history}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Rate Expert Answer (Boundary)} \\
+        \hline
+        \textbf{Responsibilities:} & \textbf{Collaborators:} \\
+        \hline
+        Knows ratings for expert answers & SME Controller \\
+        Handles user input for rating experts' answers  &  \\
+        Displays the rating results  &  \\
+        \hline
+    \end{tabular}
+    \label{tab:rate_expert_answer}
+\end{table}
+
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Shoe Information (Entity)} \\
+        \hline
+        \textbf{Responsibilities:} & \textbf{Collaborators:} \\
+        \hline
+        Knows detailed shoe information & SSD DB \\
+        Knows shoe details and features & SME Controller \\
+        Handles filtering and search functionalities & Account Shoe Controller \\
+        Displays shoe information for users & \\
+        \hline
+    \end{tabular}
+    \label{tab:shoe_information}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Search Identified Shoes (Boundary)} \\
+        \hline
+        \textbf{Responsibilities:} & \textbf{Collaborators:} \\
+        \hline
+        Handles shoe identification based on user queries & SME Controller \\
+        Displays retrieved and identified shoes &  \\
+        Handles sorting options for identified shoes &  \\
+        \hline
+    \end{tabular}
+    \label{tab:search_identified_shoes}
+\end{table}
+
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Request Identification (Boundary)} \\
+        \hline
+        \textbf{Responsibilities:} & \textbf{Collaborators:} \\
+        \hline
+        Handles requests for shoe identification & SME Controller \\
+        Handles initiation of search for shoe identification &  \\
+        Knows the status of an identification request  & \\
+        \hline
+    \end{tabular}
+    \label{tab:request_identification}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Search Results Page (Boundary)} \\
+        \hline
+        \textbf{Responsibilities:} & \textbf{Collaborators:} \\
+        \hline
+        Displays the results from shoe searches & SME Controller \\
+        Displays organized search data to users &  \\
+        Handles filtering and sorting of search results &  \\
+        Displays links to detailed shoe information &  \\
+        \hline
+    \end{tabular}
+    \label{tab:search_results_page}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} SME Controller (Controller)} \\
+        \hline
+        \textbf{Responsibilities:} & \textbf{Collaborators:} \\
+        \hline
+        Handles identification outcomes & Identification Success \\  
+        Handles system-support communication & Contact Support Message \\  
+        Handles user search requests & Search Identified Shoes \\  
+        Displays search results & Search Results Page \\  
+        Handles user accounts & Account Controller \\  
+        Handles user shoe preferences & Account Shoe Controller \\  
+        Knows shoe data & Shoe Information \\  
+        Handles database access & SSD DB \\  
+        Knows expert ratings & Rate Expert Answer \\  
+        Handles shoe identification requests & Request Identification \\  
+        Displays identification results & Identification Failure\\  
+        Displays error messages & \\  
+        Handles search filtering and sorting & \\  
+        Handles search pagination & \\  
+        Knows system-wide data consistency & \\  
+        Knows user activity for recommendations & \\  
+        \hline
+    \end{tabular}
+    \label{tab:sme_controller}
+\end{table}
+
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Identification Failure (Boundary)} \\
+        \hline
+        \textbf{Responsibility:} & \textbf{Collaborators:} \\
+        \hline
+        Handles identification failures & SME Controller \\
+        Displays identification failure notification to user & \\
+        \hline
+    \end{tabular}
+    \label{tab:identification_failure}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Identification Success (Boundary)} \\
+        \hline
+        \textbf{Responsibility:} & \textbf{Collaborators:} \\
+        \hline
+        Handles successful identification processes & SME Controller \\
+        Displays search results after identification & \\
+        \hline
+    \end{tabular}
+    \label{tab:identification_success}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} Contact Support Message (Boundary)} \\
+        \hline
+        \textbf{Responsibility:} & \textbf{Collaborators:} \\
+        \hline
+        Handles initiating contact with customer support & SME Controller \\
+        Displays the support contact information &  \\
+        \hline
+    \end{tabular}
+    \label{tab:contact_support_message}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+        \hline
+        \multicolumn{2}{|l|}{\textbf{Class Name:} SSD DB (Entity)} \\
+        \hline
+        \textbf{Responsibilities:} & \textbf{Collaborators:} \\
+        \hline
+        Knows shoe-related search results & SME Controller \\
+        Displays data for search results & Shoe Information \\
+        Knows detailed shoe attributes & \\  
+        Knows price trends and availability & \\  
+        Handles updates to shoe-related information & \\   
+        Handles database indexing and queries & \\  
+        \hline
+    \end{tabular}
+    \label{tab:ssd_db}
+\end{table}
 % End Section
 
 \appendix
