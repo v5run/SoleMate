@@ -24,8 +24,8 @@
 
 % Title Details
 %------------------------------------------------------------------------------
-\title{Deliverable \#2 Template}
-\author{SE 3A04: Software Design II -- Large System Design}
+\title{Deliverable \#2}
+\author{SE 3A04: Software Design III -- Large System Design}
 \date{}                               
 %------------------------------------------------------------------------------
 
@@ -38,7 +38,7 @@
 {\bf Group Number:} G02 \\
 {\bf Group Members:} 
 \begin{itemize}
-	\item Alvin Qian (team leader)
+	\item Alvin Qian (Team Leader)
 	\item Ryan Kumar
 	\item Lucas DeBoer
 	\item Varun Pathak
@@ -119,10 +119,10 @@ SoleMate utilizes a Blackboard Architecture integrated with a Repository Style D
 The Repository Architecture complements the Blackboard system by ensuring structured and persistent data storage. The SSD Database serves as the repository for storing identified shoes, historical searches, and expert ratings, while the Account Shoes Database and Account Database manage user-related data, such as past searches, stored shoe collections, and authentication details. This repository-style approach allows different subsystems to access data concurrently, ensuring efficient retrieval and updates without conflicts. By combining real-time collaborative processing with structured data management, SoleMate ensures both adaptability and long-term reliability in handling sneaker identification and user interaction. \par
 The Blackboard Architecture was chosen because it provides a collaborative problem-solving environment, where different expert modules can iteratively refine identification accuracy. This design is well-suited for SoleMate, as shoe recognition requires integrating various techniques, such as AI models, database lookups, and image recognition. The Repository Architecture was selected to efficiently manage large datasets, ensuring seamless access to stored information while allowing the system to scale as more users and shoe data are added. Together, these architectures provide a flexible, scalable, and data-driven solution for SoleMate’s sneaker identification platform. \par
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{archdiagram.png}
-    \caption{Figure 2. System Architecture Diagram}
+    \caption{System Architecture Diagram}
 \end{figure}
 
 Several alternative architectural styles were considered but ultimately discarded. The Model-View-Controller (MVC) Architecture was initially evaluated, but it was not ideal for SoleMate, as the system prioritizes data-driven processing and expert collaboration over UI management. The Pipe and Filter Architecture was also considered but was eliminated because it enforces a sequential flow of data, which does not align with SoleMate’s iterative expert-based approach to identification. Lastly, the Batch Sequential Architecture was rejected due to its reliance on processing data in predefined batches, as SoleMate requires real-time responses for shoe identification requests. By combining Blackboard and Repository Architecture, SoleMate successfully integrates adaptive intelligence with structured data storage, creating an optimal solution for sneaker identification and management.
@@ -490,7 +490,19 @@ The repository-style architecture is evident in how SoleMate manages persistent 
 \section{Division of Labour}
 \label{sec:division_of_labour}
 % Begin Section
-Include a Division of Labour sheet which indicates the contributions of each team member. This sheet must be signed by all team members.
+
+\begin{itemize}
+    \item Introduction (Section 1): Ryan Kumar
+    \item Analysis Class Diagram (Section 2): Lucas DeBoer 
+    \item Architectural Design (Section 3): Alvin Qian \& Varun Pathak
+    \item Class Responsibility Collaboration (CRC) Cards (Section 4): Moustafa Moustafa \& Maya Azar
+\end{itemize}
+
+Signatures:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = \textwidth]{Signatures.png}
+\end{figure}
 % End Section
 
 
