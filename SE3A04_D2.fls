@@ -2,8 +2,8 @@ PWD /Users/varunpathak/Documents/github/SoleMate
 INPUT /usr/local/texlive/2025basic/texmf.cnf
 INPUT /usr/local/texlive/2025basic/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025basic/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/varunpathak/Documents/github/SoleMate/SE3A04_D2_Template.tex
-OUTPUT SE3A04_D2_Template.log
+INPUT /Users/varunpathak/Documents/github/SoleMate/SE3A04_D2.tex
+OUTPUT SE3A04_D2.log
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size10.clo
@@ -53,10 +53,10 @@ INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./SE3A04_D2_Template.aux
-INPUT ./SE3A04_D2_Template.aux
-INPUT SE3A04_D2_Template.aux
-OUTPUT SE3A04_D2_Template.aux
+INPUT ./SE3A04_D2.aux
+INPUT ./SE3A04_D2.aux
+INPUT SE3A04_D2.aux
+OUTPUT SE3A04_D2.aux
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -103,7 +103,7 @@ INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-OUTPUT SE3A04_D2_Template.pdf
+OUTPUT SE3A04_D2.pdf
 INPUT /usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./analysisClassDiagram.png
@@ -121,7 +121,7 @@ INPUT ./Signatures.png
 INPUT ./Signatures.png
 INPUT ./Signatures.png
 INPUT ./Signatures.png
-INPUT SE3A04_D2_Template.aux
+INPUT SE3A04_D2.aux
 INPUT /Users/varunpathak/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

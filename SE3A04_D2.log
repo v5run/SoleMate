@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  9 MAR 2025 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  9 MAR 2025 20:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/varunpathak/Documents/github/SoleMate/SE3A04_D2_Template.tex
-(/Users/varunpathak/Documents/github/SoleMate/SE3A04_D2_Template.tex
+**/Users/varunpathak/Documents/github/SoleMate/SE3A04_D2.tex
+(/Users/varunpathak/Documents/github/SoleMate/SE3A04_D2.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
@@ -176,8 +176,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box56
-) (./SE3A04_D2_Template.aux)
-\openout1 = `SE3A04_D2_Template.aux'.
+) (./SE3A04_D2.aux)
+\openout1 = `SE3A04_D2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -389,7 +389,7 @@ Package pdftex.def Info: Signatures.png  used on input line 504.
 (pdftex.def)             Requested size: 469.75502pt x 142.56168pt.
 
 
-[8 <./Signatures.png>] (./SE3A04_D2_Template.aux)
+[8 <./Signatures.png>] (./SE3A04_D2.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -397,14 +397,14 @@ L3 programming layer <2025-01-18>
  ) 
 Here is how much of TeX's memory you used:
  3678 strings out of 474662
- 55705 string characters out of 5751110
- 468390 words of memory out of 5000000
+ 55597 string characters out of 5751110
+ 468372 words of memory out of 5000000
  26689 multiletter control sequences out of 15000+600000
  567381 words of font info for 69 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 57i,10n,65p,1111b,272s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,65p,1102b,272s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/varunpathak/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on SE3A04_D2_Template.pdf (8 pages, 384402 bytes).
+Output written on SE3A04_D2.pdf (8 pages, 384402 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
