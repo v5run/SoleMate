@@ -12,6 +12,7 @@
 \usepackage{graphicx}
 \usepackage{extarrows}
 \usepackage{setspace}
+\usepackage{float}
 %------------------------------------------------------------------------------
 
 % Header and Footer
@@ -72,7 +73,24 @@ This section should provide an brief overview of the entire document.
 \section{State Charts for Controller Classes}
 \label{sec:state_charts_for_controller_classes}
 % Begin Section
-This section should provide a state chart for each controller class for your application.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{SMEController.drawio.png}
+    \caption{SME Controller state diagram illustrating the identification process flow from request submission to expert querying and user feedback.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{AccountController.drawio.png}
+    \caption{Account Controller state diagram showing login, account creation, validation, and management functionality.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{AccountShoesController.drawio.png}
+    \caption{Account Shoes Controller state diagram showing user interactions for viewing personal shoe history and searching shoes identified by all users.}
+\end{figure}
+
 % End Section
 
 \section{Sequence Diagrams}
