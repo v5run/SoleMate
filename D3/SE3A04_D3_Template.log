@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  23 MAR 2025 22:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  23 MAR 2025 22:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/alvinqian/Developer/school/3A04/SoleMate/D3/SE3A04_D3_Template.tex
-(/Users/alvinqian/Developer/school/3A04/SoleMate/D3/SE3A04_D3_Template.tex
+**/Users/varunpathak/Documents/github/SoleMate/D3/SE3A04_D3_Template.tex
+(/Users/varunpathak/Documents/github/SoleMate/D3/SE3A04_D3_Template.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count196
@@ -23,9 +23,9 @@ File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks17
 \symAMSa=\mathgroup4
@@ -33,13 +33,13 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen142
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks19
 \thm@bodyfont=\toks20
@@ -50,15 +50,15 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip52
 \thm@headsep=\skip53
 \dth@everypar=\toks24
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen143
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count270
@@ -108,10 +108,10 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/enumerate.sty
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks29
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip57
 \f@nch@offset@elh=\skip58
@@ -128,14 +128,14 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip69
 \f@nch@widthR=\skip70
 \@temptokenb=\toks30
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks31
-) (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+) (/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count282
@@ -150,33 +150,33 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks32
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/extarrows/extarrows.sty
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/extarrows/extarrows.sty
 Package: extarrows 2020/03/12 v1.2.0 Some extensible arrows
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count285
 \float@exts=\toks33
 \float@box=\box54
 \@float@everytoks=\toks34
 \@floatcapt=\box55
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box56
@@ -232,7 +232,7 @@ LaTeX Font Info:    ... okay on input line 34.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count287
 \scratchdimen=\dimen161
@@ -245,143 +245,145 @@ LaTeX Font Info:    ... okay on input line 34.
 \MPnumerator=\count291
 \makeMPintoPDFobject=\count292
 \everyMPtoPDFconversion=\toks36
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<SMEController.drawio.png, id=1, 1262.7175pt x 1765.59625pt>
-File: SMEController.drawio.png Graphic file (type png)
-<use SMEController.drawio.png>
-Package pdftex.def Info: SMEController.drawio.png  used on input line 78.
-(pdftex.def)             Requested size: 422.77664pt x 591.13492pt.
-
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<SMEController.drawio.png, id=11, 1262.7175pt x 1765.59625pt>
+File: SMEController.drawio.png Graphic file (type png)
+<use SMEController.drawio.png>
+Package pdftex.def Info: SMEController.drawio.png  used on input line 96.
+(pdftex.def)             Requested size: 422.77664pt x 591.13492pt.
+
+
+[2]
 Overfull \vbox (7.55211pt too high) has occurred while \output is active []
 
 
 
-[2 <./SMEController.drawio.png>]
-<AccountController.drawio.png, id=16, 853.1875pt x 895.345pt>
+[3 <./SMEController.drawio.png>]
+<AccountController.drawio.png, id=21, 853.1875pt x 895.345pt>
 File: AccountController.drawio.png Graphic file (type png)
 <use AccountController.drawio.png>
-Package pdftex.def Info: AccountController.drawio.png  used on input line 84.
+Package pdftex.def Info: AccountController.drawio.png  used on input line 102.
 (pdftex.def)             Requested size: 469.75502pt x 492.97409pt.
-<AccountShoesController.drawio.png, id=17, 905.3825pt x 971.63pt>
+<AccountShoesController.drawio.png, id=22, 905.3825pt x 971.63pt>
 File: AccountShoesController.drawio.png Graphic file (type png)
 <use AccountShoesController.drawio.png>
-Package pdftex.def Info: AccountShoesController.drawio.png  used on input line 90.
+Package pdftex.def Info: AccountShoesController.drawio.png  used on input line 108.
 (pdftex.def)             Requested size: 469.75502pt x 504.12375pt.
 
 
-[3 <./AccountController.drawio.png>]
-<S3/image (1).png, id=22, 750.805pt x 402.50375pt>
+[4 <./AccountController.drawio.png>]
+<S3/image (1).png, id=27, 481.8pt x 345.29pt>
 File: S3/image (1).png Graphic file (type png)
 <use S3/image (1).png>
-Package pdftex.def Info: S3/image (1).png  used on input line 102.
-(pdftex.def)             Requested size: 422.77664pt x 226.65346pt.
+Package pdftex.def Info: S3/image (1).png  used on input line 120.
+(pdftex.def)             Requested size: 422.77664pt x 302.99733pt.
 
 
-[4 <./AccountShoesController.drawio.png>]
-<S3/image (2).png, id=27, 643.40375pt x 355.3275pt>
+[5 <./AccountShoesController.drawio.png>]
+<S3/image (2).png, id=32, 643.40375pt x 355.3275pt>
 File: S3/image (2).png Graphic file (type png)
 <use S3/image (2).png>
-Package pdftex.def Info: S3/image (2).png  used on input line 108.
+Package pdftex.def Info: S3/image (2).png  used on input line 126.
 (pdftex.def)             Requested size: 422.77664pt x 233.49213pt.
-<S3/image (3).png, id=28, 638.385pt x 361.35pt>
+<S3/image (3).png, id=33, 638.385pt x 361.35pt>
 File: S3/image (3).png Graphic file (type png)
 <use S3/image (3).png>
-Package pdftex.def Info: S3/image (3).png  used on input line 114.
+Package pdftex.def Info: S3/image (3).png  used on input line 132.
 (pdftex.def)             Requested size: 422.77664pt x 239.30777pt.
 
 
-[5 <./S3/image (1).png> <./S3/image (2).png>]
-<S3/image (4).png, id=34, 522.95375pt x 352.31625pt>
+[6 <./S3/image (1).png> <./S3/image (2).png>]
+<S3/image (4).png, id=39, 522.95375pt x 352.31625pt>
 File: S3/image (4).png Graphic file (type png)
 <use S3/image (4).png>
-Package pdftex.def Info: S3/image (4).png  used on input line 120.
+Package pdftex.def Info: S3/image (4).png  used on input line 138.
 (pdftex.def)             Requested size: 422.77664pt x 284.83162pt.
-<S3/image (5).png, id=35, 581.17125pt x 353.32pt>
+<S3/image (5).png, id=40, 581.17125pt x 353.32pt>
 File: S3/image (5).png Graphic file (type png)
 <use S3/image (5).png>
-Package pdftex.def Info: S3/image (5).png  used on input line 126.
+Package pdftex.def Info: S3/image (5).png  used on input line 144.
 (pdftex.def)             Requested size: 422.77664pt x 257.0265pt.
 
 
-[6 <./S3/image (3).png> <./S3/image (4).png>]
-<S3/image (6).jpeg, id=41, 602.25pt x 389.95688pt>
+[7 <./S3/image (3).png> <./S3/image (4).png>]
+<S3/image (6).jpeg, id=47, 602.25pt x 389.95688pt>
 File: S3/image (6).jpeg Graphic file (type jpg)
 <use S3/image (6).jpeg>
-Package pdftex.def Info: S3/image (6).jpeg  used on input line 132.
+Package pdftex.def Info: S3/image (6).jpeg  used on input line 150.
 (pdftex.def)             Requested size: 422.77664pt x 273.75932pt.
-<S3/image (7).png, id=42, 601.24625pt x 356.33125pt>
+<S3/image (7).png, id=48, 601.24625pt x 356.33125pt>
 File: S3/image (7).png Graphic file (type png)
 <use S3/image (7).png>
-Package pdftex.def Info: S3/image (7).png  used on input line 138.
+Package pdftex.def Info: S3/image (7).png  used on input line 156.
 (pdftex.def)             Requested size: 422.77664pt x 250.56653pt.
 
 
-[7 <./S3/image (5).png> <./S3/image (6).jpeg>]
-<fullDiagram.png, id=48, 2426.06375pt x 959.585pt>
+[8 <./S3/image (5).png> <./S3/image (6).jpeg>]
+
+[9 <./S3/image (7).png>]
+<fullDiagram.png, id=57, 2426.06375pt x 959.585pt>
 File: fullDiagram.png Graphic file (type png)
 <use fullDiagram.png>
-Package pdftex.def Info: fullDiagram.png  used on input line 151.
+Package pdftex.def Info: fullDiagram.png  used on input line 169.
 (pdftex.def)             Requested size: 422.77664pt x 167.21242pt.
-<figure1.png, id=49, 541.02126pt x 415.5525pt>
+<figure1.png, id=58, 541.02126pt x 415.5525pt>
 File: figure1.png Graphic file (type png)
 <use figure1.png>
-Package pdftex.def Info: figure1.png  used on input line 157.
+Package pdftex.def Info: figure1.png  used on input line 175.
 (pdftex.def)             Requested size: 422.77664pt x 324.73836pt.
-
-
-[8 <./S3/image (7).png> <./fullDiagram.png (PNG copy)>]
-<figure2.png, id=54, 1101.11375pt x 155.07938pt>
+<figure2.png, id=59, 1101.11375pt x 155.07938pt>
 File: figure2.png Graphic file (type png)
 <use figure2.png>
-Package pdftex.def Info: figure2.png  used on input line 164.
+Package pdftex.def Info: figure2.png  used on input line 182.
 (pdftex.def)             Requested size: 422.77664pt x 59.54364pt.
-<figure3.png, id=55, 1074.0125pt x 396.48125pt>
+
+
+[10 <./fullDiagram.png (PNG copy)> <./figure1.png>]
+<figure3.png, id=64, 1074.0125pt x 396.48125pt>
 File: figure3.png Graphic file (type png)
 <use figure3.png>
-Package pdftex.def Info: figure3.png  used on input line 171.
+Package pdftex.def Info: figure3.png  used on input line 189.
 (pdftex.def)             Requested size: 422.77664pt x 156.07297pt.
 
 
-[9 <./figure1.png> <./figure2.png>]
+[11 <./figure2.png> <./figure3.png>]
 
-[10 <./figure3.png>]
-
-[11{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./SE3A04_D3_Template.aux)
+[12] (./SE3A04_D3_Template.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3825 strings out of 473190
- 58782 string characters out of 5715801
- 450457 words of memory out of 5000000
- 27040 multiletter control sequences out of 15000+600000
+ 3822 strings out of 474662
+ 59080 string characters out of 5751110
+ 448608 words of memory out of 5000000
+ 26825 multiletter control sequences out of 15000+600000
  567381 words of font info for 69 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 57i,6n,65p,343b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on SE3A04_D3_Template.pdf (11 pages, 2173286 bytes).
+ 319 hyphenation exceptions out of 8191
+ 57i,6n,65p,427b,237s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/varunpathak/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on SE3A04_D3_Template.pdf (12 pages, 2137622 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
