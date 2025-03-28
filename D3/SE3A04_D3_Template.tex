@@ -25,7 +25,7 @@
 % Title Details
 %------------------------------------------------------------------------------
 \title{Deliverable \#3 Template}
-\author{SE 3A04: Software Design II -- Large System Design}
+\author{SE 3A04: Software Design III -- Large System Design}
 \date{}                               
 %------------------------------------------------------------------------------
 
@@ -34,37 +34,55 @@
 \begin{document}
 
 \maketitle	
+\noindent{\bf Tutorial Number:} T02\\
+{\bf Group Number:} G02 \\
+{\bf Group Members:} 
+\begin{itemize}
+	\item Alvin Qian (Team Leader)
+	\item Ryan Kumar
+	\item Lucas DeBoer
+	\item Varun Pathak
+	\item Maya Azar
+	\item Moustafa Moustafa
+\end{itemize}
+
+\newpage
 
 \section{Introduction}
 \label{sec:introduction}
 % Begin Section
 
-This section should provide an brief overview of the entire document.
+This document provides further information about the SoleMate system architecture, including state chart diagrams, sequence diagrams, and a detailed class diagram. These materials expand on the foundational concepts introduced in Deliverables 1 and 2, adding detailed insights into how SoleMate’s key components work together.
 
+% End Section
 \subsection{Purpose}
 \label{sub:purpose}
 % Begin SubSection
-\begin{enumerate}[a)]
-	\item Delineate the purpose of the document
-	\item Specify the intended audience for the document
-\end{enumerate}
+The document shows how different classes and controllers encapsulated within SoleMate transition between states, interact with one another, and enable the shoe-identification capabilities central to the system.
+Additionally, this deliverable serves as a resource for technical and non-technical team members seeking clarity on SoleMate’s design. 
 % End SubSection
 
 \subsection{System Description}
 \label{sub:system_description}
 % Begin SubSection
-\begin{enumerate}[a)]
-	\item Give a brief description of the system. This could be a paragraph or two to give some context to this document.
-\end{enumerate}
+SoleMate is an intelligent shoe-identification platform that allows users to request footwear information, view past or community-wide identifications, and manage their personal shoe history. This platform combines user-friendly interfaces with expert-driven data to provide reliable, context-based recommendations and identifications.
+Building on the concepts introduced in previous deliverables, SoleMate employs multiple controllers to validate user requests, route queries to the appropriate domain experts, and retrieve comprehensive shoe-related insights. 
+
+An extended overview of the system description can be found in Deliverable 2. This document acts as an extension
+of Deliverable 2, providing more context in form of state charts, sequence diagrams, and a detailed class
+diagram.
 % End SubSection
 
 \subsection{Overview}
 \label{sub:overview}
 % Begin SubSection
-\begin{enumerate}[a)]
-	\item Describe what the rest of the document contains 
-	\item Explain how the document is organised
-\end{enumerate}
+The remainder of this document details how SoleMate’s components interact to fulfill user needs:
+
+\begin{itemize}
+	\item Section 2 presents state chart diagrams for the key controller classes, illustrating transitions from request submissions through to expert queries and user feedback.
+	\item Section 3 provides sequence diagrams that capture step-by-step interactions among system components, showing how user requests flow through the platform.
+	\item Section 4 offers a comprehensive class diagram, highlighting the relationships and responsibilities of SoleMate’s major classes.
+\end{itemize}
 
 % End SubSection
 
@@ -96,13 +114,83 @@ This section should provide an brief overview of the entire document.
 \section{Sequence Diagrams}
 \label{sec:sequence_diagrams}
 % Begin Section
-This section should provide a sequence diagram for each use case of your application.
-% End Section
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{S3/image (1).png}
+    \caption{User requests shoe identification}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{S3/image (2).png}
+	\caption{User views their past shoe searches}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{S3/image (3).png}
+	\caption{User searches for previously identified shoes}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{S3/image (4).png}
+	\caption{User audits experts’ answers}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{S3/image (5).png}
+	\caption{User creates account}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{S3/image (6).jpeg}
+	\caption{User logs in}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{S3/image (7).png}
+	\caption{User edits account}
+\end{figure}
+
+
+
+% End Section
+\newpage
 \section{Detailed Class Diagram}
 \label{sec:detailed_class_diagram}
 % Begin Section
-This section should provide a detailed class diagram for your application.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{fullDiagram.png}
+	\caption{Overall detailed class diagram}
+\end{figure} 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figure1.png}
+	\caption{Detailed class diagram subsection 1}
+\end{figure}
+Figure 12 is above Figure 13 and left of Figure 14.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figure2.png}
+	\caption{Detailed class diagram subsection 2}
+\end{figure}
+Figure 13 is below Figure 12 and Figure 14.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figure3.png}
+	\caption{Detailed class diagram subsection 3}
+\end{figure}
+Figure 14 is above Figure 13 and right of Figure 12.
+
 % End Section
 
 \appendix
