@@ -151,10 +151,10 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \hline
         Knows Edit Account & Edit Account \\
         Knows Login & Login \\
-        Knows Create Account  & Create Account\\
-        Knows View Account  & View Account \\
-        Knows Account DB  & Account DB \\
-        Knows User Information  & User Information \\
+        Knows Create Account & Create Account\\
+        Knows View Account & View Account \\
+        Knows Account DB & Account DB \\
+        Knows User Information & User Information \\
         Knows Account Shoes Controller & Account Shoes Controller \\
         Knows SME Controller & SME Controller \\
         \hline
@@ -205,7 +205,6 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \textbf{Responsibility:} & \textbf{Collaborators:} \\
         \hline
         Knows Account Controller & Account Controller \\
-        Knows username, password, gender etc. & \\
         Handles click-event of ”Save” button & \\
         \hline
     \end{tabular}
@@ -236,7 +235,6 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \textbf{Responsibility:} & \textbf{Collaborators:} \\
         \hline
         Knows Account Controller & Account Controller \\
-        Knows username and password &  \\
         Handles click-event of ”Create Account” Button & \\
         \hline
     \end{tabular}
@@ -285,7 +283,6 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         Knows Account Controller & Account Controller \\
         Knows Account Shoes Controller & Account Shoes Controller \\
         Knows user information like username, password, gender etc. & \\ 
-        
         \hline
     \end{tabular}
     \label{tab:user_information}
@@ -313,14 +310,13 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \hline
         \textbf{Responsibilities:} & \textbf{Collaborators:} \\
         \hline
-        Knows ratings for expert answers & SME Controller \\
+        Knows SME Controller & SME Controller \\
         Handles user input for rating experts' answers  &  \\
         Displays the rating results  &  \\
         \hline
     \end{tabular}
     \label{tab:rate_expert_answer}
 \end{table}
-
 
 \begin{table}[H]
     \centering
@@ -330,9 +326,9 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \hline
         \textbf{Responsibilities:} & \textbf{Collaborators:} \\
         \hline
-        Knows detailed shoe information & SSD DB \\
-        Knows shoe details and features & SME Controller \\
-        Handles filtering and search functionalities & Account Shoe Controller \\
+        Knows SSD DB & SSD DB \\
+        Knows SME Controller & SME Controller \\
+        Knows Account Shoe Controller & Account Shoe Controller \\
         Displays shoe information for users & \\
         \hline
     \end{tabular}
@@ -347,14 +343,13 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \hline
         \textbf{Responsibilities:} & \textbf{Collaborators:} \\
         \hline
-        Handles shoe identification based on user queries & SME Controller \\
+        Knows SME Controller & SME Controller \\
         Displays retrieved and identified shoes &  \\
         Handles sorting options for identified shoes &  \\
         \hline
     \end{tabular}
     \label{tab:search_identified_shoes}
 \end{table}
-
 
 \begin{table}[H]
     \centering
@@ -364,9 +359,8 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \hline
         \textbf{Responsibilities:} & \textbf{Collaborators:} \\
         \hline
-        Handles requests for shoe identification & SME Controller \\
+        Knows SME Controller & SME Controller \\
         Handles initiation of search for shoe identification &  \\
-        Knows the status of an identification request  & \\
         \hline
     \end{tabular}
     \label{tab:request_identification}
@@ -380,7 +374,7 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \hline
         \textbf{Responsibilities:} & \textbf{Collaborators:} \\
         \hline
-        Displays the results from shoe searches & SME Controller \\
+        Knows SME Controller & SME Controller \\
         Displays organized search data to users &  \\
         Handles filtering and sorting of search results &  \\
         Displays links to detailed shoe information &  \\
@@ -397,27 +391,21 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \hline
         \textbf{Responsibilities:} & \textbf{Collaborators:} \\
         \hline
-        Handles identification outcomes & Identification Success \\  
-        Handles system-support communication & Contact Support Message \\  
-        Handles user search requests & Search Identified Shoes \\  
-        Displays search results & Search Results Page \\  
-        Handles user accounts & Account Controller \\  
-        Handles user shoe preferences & Account Shoe Controller \\  
-        Knows shoe data & Shoe Information \\  
-        Handles database access & SSD DB \\  
-        Knows expert ratings & Rate Expert Answer \\  
-        Handles shoe identification requests & Request Identification \\  
-        Displays identification results & Identification Failure\\  
-        Displays error messages & \\  
-        Handles search filtering and sorting & \\  
-        Handles search pagination & \\  
-        Knows system-wide data consistency & \\  
-        Knows user activity for recommendations & \\  
+        Knows Identification Success & Identification Success \\  
+        Knows Contact Support Message & Contact Support Message \\  
+        Knows Search Identified Shoes & Search Identified Shoes \\  
+        Knows Search Results Page & Search Results Page \\  
+        Knows Account Controller & Account Controller \\  
+        Knows Account Shoe Controller & Account Shoe Controller \\  
+        Knows Shoe Information & Shoe Information \\  
+        Knows SSD DB & SSD DB \\  
+        Knows Rate Expert Answer & Rate Expert Answer \\  
+        Knows Request Identification & Request Identification \\  
+        Knows Identification Failure & Identification Failure\\  
         \hline
     \end{tabular}
     \label{tab:sme_controller}
 \end{table}
-
 
 \begin{table}[H]
     \centering
@@ -427,7 +415,7 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \hline
         \textbf{Responsibility:} & \textbf{Collaborators:} \\
         \hline
-        Handles identification failures & SME Controller \\
+        Knows SME Controller & SME Controller \\
         Displays identification failure notification to user & \\
         \hline
     \end{tabular}
@@ -442,7 +430,7 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \hline
         \textbf{Responsibility:} & \textbf{Collaborators:} \\
         \hline
-        Handles successful identification processes & SME Controller \\
+        Knows SME Controller & SME Controller \\
         Displays search results after identification & \\
         \hline
     \end{tabular}
@@ -457,7 +445,7 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \hline
         \textbf{Responsibility:} & \textbf{Collaborators:} \\
         \hline
-        Handles initiating contact with customer support & SME Controller \\
+        Knows SME Controller & SME Controller \\
         Displays the support contact information &  \\
         \hline
     \end{tabular}
@@ -472,8 +460,8 @@ The repository-style architecture is evident in how SoleMate manages persistent 
         \hline
         \textbf{Responsibilities:} & \textbf{Collaborators:} \\
         \hline
-        Knows shoe-related search results & SME Controller \\
-        Displays data for search results & Shoe Information \\
+        Knows SME Controller & SME Controller \\
+        Knows Shoe Information & Shoe Information \\
         Knows detailed shoe attributes & \\  
         Knows price trends and availability & \\  
         Handles updates to shoe-related information & \\   
