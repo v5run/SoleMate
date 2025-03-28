@@ -5,6 +5,10 @@ hide A
 control "Account Controller" as c1
 control "SME Controller" as c2
 control "Account Shoes Controller" as c3
+control "OpenAI Controller" as c4
+control "SoleMateID Controller" as c5
+control "Gemini Controller" as c6
+control "Expert Controller" as c7
 
 entity  "Account DB" as d1
 entity  "User Information" as d2
@@ -24,11 +28,22 @@ boundary "Search Results Page" as b9
 boundary "Request Identification" as b10
 boundary "Search Identified Shoes" as b11
 boundary "Rate Expert Answer" as b12
+boundary "Identify Shoe 1" as b13
+boundary "Identify Shoe 2" as b14
+boundary "Identify Shoe 3" as b15
+
+
 
 
 c1 <--> c2
 c2 <-> c3
 c1 <-> c3
+
+c7 <---> c4
+c7 <---> c5
+c7 <---> c6
+c7 <-down-> c2
+
 
 c1 ..> d2
 c1 --> d1
@@ -47,13 +62,17 @@ b2 <--> c1
 b3 <--> c1
 b4 <--> c1
 
+b15 <-up-> c4
+b13 <-up-> c5
+b14 <-up-> c6
+
 c2 <-up-> b6
-c2 <-left-> b7
+c2 <-up-> b7
 c2 <-up-> b8
 c2 <-up-> b9
-c2 <---> b10
+c2 <-left-> b10
 c2 <--> b11
-c2 <-down-> b12
+c7 <-up-> b12
 
 b5 <-up-> c3
 @enduml
